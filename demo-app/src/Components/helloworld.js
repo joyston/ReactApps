@@ -1,9 +1,7 @@
 import React from 'react'
 
-function helloworld() {
+export default function Helloworld() {
     return (
-        <div>helloworld</div>
+        <h1>Helloworld</h1>
     )
 }
-
-export default helloworld

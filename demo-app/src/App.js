@@ -1,9 +1,9 @@
-import helloworld from "./Components/helloworld";
+import Helloworld from "./Components/helloworld";
 
 function App() {
   return (
     <div className="App">
-      <helloworld />
+      <Helloworld />
     </div>
   );
 }
