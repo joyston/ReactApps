@@ -7,7 +7,7 @@ export default function Helloworld(props) {
     const link = "http://www.google.com";
 
     return (
-        <div>
+        <div style={{ backgroundColor: 'red', padding: '10px' }}>
             <h1>Helloworld</h1>
             <p>{greeting} </p>
             <p>Number value is {number} </p>
