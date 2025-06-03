@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Helloworld() {
+export default function Helloworld(props) {
 
     const greeting = "Welcome to React!";
     const number = 30;
@@ -13,7 +13,10 @@ export default function Helloworld() {
             <p>Number value is {number} </p>
             <p>Number added to Number is {number + number} </p>
             <a href={link}>Go to Google</a>
+            <p>Received Number from parent: {props.numberProps} </p>
+
         </div>
 
     )
 }
+
